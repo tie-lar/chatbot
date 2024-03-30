@@ -1,0 +1,68 @@
+{
+    "intents": [
+        {"tag":"greeting",
+        "patterns":["hello", "hi", "good day", "what's up?", "how is it going?", "hey"],
+        "responses":["Hello! How can I help you?", "Hi there, how can I help?"]   
+        },
+        {"tag":"goodbye",
+        "patterns": ["cya", "bye", "See you later", "I am leaving", "Have a good day", "ciao", "see ya", "goodbye", "Goodbye", "gb", "gd bye"],
+        "responses":["Goodbye!", "Talk to you later", "See you another time"]
+
+        },
+        {"tag":"tickets",
+        "patterns": ["Can I get some train tickets?", "train tickets", "tickets", "train tickets?", "I would like some train tickets?", "I would like some tickets", "I need to get a train"],
+        "responses":["I understand you'd like some train tickets, where would you like to depart from?"]
+
+        },
+        {"tag":"departure",
+        "patterns": ["I'd like to depart from"],
+        "responses":[]
+
+        },
+        {"tag":"date",
+        "patterns": [],
+        "responses":[]
+
+        },
+        {"tag":"",
+        "patterns": [],
+        "responses":[]
+
+        },
+        {"tag":"",
+        "patterns": [],
+        "responses":[]
+
+        },
+        {"tag":"",
+        "patterns": [],
+        "responses":[]
+
+        },
+        {"tag":"",
+        "patterns": [],
+        "responses":[]
+
+        },
+        {"tag":"",
+        "patterns": [],
+        "responses":[]
+
+        },
+        {"tag":"",
+        "patterns": [],
+        "responses":[]
+
+        },
+        {"tag":"",
+        "patterns": [],
+        "responses":[]
+
+        },
+        {"tag":"",
+        "patterns": [],
+        "responses":[]
+
+        }
+    ]
+}
